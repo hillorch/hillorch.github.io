@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import "./customvars";
+
+// https://getbootstrap.com/docs/4.3/getting-started/theming/
+// required
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+
+// optional
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/grid";
+@import "../bootstrap/scss/navbar";
+@import "../bootstrap/scss/type";
+@import "../bootstrap/scss/buttons";
+
+// custom
+@import "./navbar";
+
+body {
+    background: url(../img/OswaldsBanner_mono_1718.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: justify;
+    background-position: center center;
+}
+.content-frame {
+    position: relative;
+    margin-bottom: 100px;
+    background-color: rgba(66, 66, 66, 0.9);
+    padding: 2% 0px;
+    &:first-of-type {
+        margin-top: 400px;
+    }
+}
+
+.scroll-anchor {
+    position: absolute;
+    top: -196px;
+    left: 0;
+}
+
+footer {
+    padding-top: 2%;
+    background-color: rgb(66, 66, 66);
+    p {
+        margin: 0px;
+    }
+    .container {
+        padding-bottom: 2%;
+    }
+    .row img {
+        width: 100%;
+    }
+    .bottom-msg {
+        padding: 20px 5px;
+        text-align: center;
+        background-color: rgb(40, 40, 40);
+    }
+    .logo-flex {
+        display: flex;
+        height: 100%;
+        justify-content:center;
+        align-items:center;
+        a {
+            width: 80%;
+        }
+    }
+}
