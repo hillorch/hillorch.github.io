@@ -2769,7 +2769,12 @@ button {
 #content-404 {
   padding-top: 100px;
   text-align: center;
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 300px);
+  padding-bottom: 300px;
+}
+
+p {
+  margin-bottom: 0px;
 }
 
 footer {
