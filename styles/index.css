@@ -2807,4 +2807,13 @@ footer .logo-flex a {
   padding-left: 5px;
   margin: 0px;
 }
+
+#mail-hidden-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  z-index: 1000000;
+}
 /*# sourceMappingURL=index.css.map */
