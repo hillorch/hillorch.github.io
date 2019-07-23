@@ -1,0 +1,22 @@
+@import "./main";
+
+body {
+    background: url(../img/OswaldsBanner_mono_dark_1718.jpg);
+}
+
+button {
+    margin-top: 20px;
+}
+
+#content-404 {
+    padding-top: 100px;
+    text-align: center;
+    min-height: calc(100vh - 100px);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
