@@ -2667,10 +2667,10 @@ input[type="button"].btn-block {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  -webkit-transition: background-color 0.5s ease, -webkit-box-shadow 0.5s ease;
-  transition: background-color 0.5s ease, -webkit-box-shadow 0.5s ease;
-  transition: background-color 0.5s ease, box-shadow 0.5s ease;
-  transition: background-color 0.5s ease, box-shadow 0.5s ease, -webkit-box-shadow 0.5s ease;
+  -webkit-transition: background-color 0.3s ease, -webkit-box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, -webkit-box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
   z-index: 1000;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
