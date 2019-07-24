@@ -2694,7 +2694,7 @@ input[type="button"].btn-block {
 }
 
 body {
-  background: url(../img/OswaldsBanner_mono_1718.jpg);
+  background: url("../img/OswaldsBanner_mono_1718.jpg");
   background-size: cover;
   background-attachment: fixed;
   text-align: justify;
@@ -2779,6 +2779,10 @@ footer .logo-flex a {
   margin-top: 0px;
 }
 
+#exec-box {
+  text-align: center;
+}
+
 #exec-box hr {
   border: 1px #dddddd solid;
   width: 90%;
@@ -2786,11 +2790,13 @@ footer .logo-flex a {
 }
 
 #exec-box .name-cont {
-  text-align: left;
   height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2804,8 +2810,9 @@ footer .logo-flex a {
 
 #exec-box ul {
   list-style: none;
-  padding-left: 5px;
+  padding-left: 0px;
   margin: 0px;
+  font-size: 15px;
 }
 
 #mail-hidden-btn {
