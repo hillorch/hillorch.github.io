@@ -2709,7 +2709,7 @@ body {
 }
 
 .content-frame:first-of-type {
-  margin-top: 400px;
+  margin-top: 300px;
 }
 
 .scroll-anchor {
@@ -2741,11 +2741,28 @@ footer .bottom-msg {
   background-color: #282828;
 }
 
-footer .logo-flex {
+footer .footer-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: horizontal;
+          flex-direction: horizontal;
+}
+
+footer .footer-logos .logo-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 100%;
+  width: 50%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2754,8 +2771,12 @@ footer .logo-flex {
           align-items: center;
 }
 
-footer .logo-flex a {
-  width: 80%;
+footer .footer-logos .logo-flex a {
+  width: 70%;
+}
+
+#about-box {
+  margin-top: 400px;
 }
 
 #join-box button {
