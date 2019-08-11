@@ -3,12 +3,12 @@
     "name": "Durham University Hill Orchestra",
     "icons": [
         {
-            "src": "/img/logos/192x192.jpg",
+            "src": "/img/logos/192x192.png",
             "type": "image/jpg",
             "sizes": "192x192"
         },
         {
-            "src": "/img/logos/512x512.jpg",
+            "src": "/img/logos/512x512.png",
             "type": "image/jpg",
             "sizes": "512x512"
         }
