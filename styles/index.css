@@ -1900,7 +1900,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 1.6rem;
 }
 
 h4, .h4 {
@@ -2690,32 +2690,7 @@ input[type="button"].btn-block {
 }
 
 .navbar #nav-logo {
-  height: 70px;
-}
-
-body {
-  background: #888888 url("../img/OswaldsBanner_mono_1718.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: justify;
-  background-position: center center;
-}
-
-.content-frame {
-  position: relative;
-  margin-bottom: 100px;
-  background-color: rgba(66, 66, 66, 0.9);
-  padding: 2% 0px;
-}
-
-.content-frame:first-of-type {
-  margin-top: 300px;
-}
-
-.scroll-anchor {
-  position: absolute;
-  top: -196px;
-  left: 0;
+  height: 74px;
 }
 
 footer {
@@ -2773,6 +2748,94 @@ footer .footer-logos .logo-flex {
 
 footer .footer-logos .logo-flex a {
   width: 70%;
+}
+
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  div.logo-flex a {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer-logos {
+    margin: 8% 0px;
+  }
+  #nav-logo {
+    height: 54px !important;
+  }
+  .content-frame {
+    margin-bottom: 80px !important;
+  }
+  .scroll-anchor {
+    top: -160px !important;
+  }
+  h1 {
+    font-size: 40px;
+    text-align: left;
+  }
+}
+
+body {
+  background: #888888 url("../img/OswaldsBanner_mono_1718.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: justify;
+  background-position: center center;
+}
+
+.content-frame {
+  position: relative;
+  margin-bottom: 100px;
+  background-color: rgba(66, 66, 66, 0.9);
+  padding: 2% 0px;
+}
+
+.content-frame:first-of-type {
+  margin-top: 300px;
+}
+
+.scroll-anchor {
+  position: absolute;
+  top: -200px;
+  left: 0;
+}
+
+@media (max-width: 1199.98px) {
+  #exec-box ul li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body {
+    font-size: 15px;
+  }
+  #about-box {
+    margin-top: 300px !important;
+  }
+  #exec-box b {
+    font-size: 15px;
+  }
+  #exec-box h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #exec-box, #exec-btn {
+    display: none;
+  }
+}
+
+.float-clearer {
+  clear: both;
+  display: block;
 }
 
 #about-box {
@@ -2841,7 +2904,10 @@ footer .footer-logos .logo-flex a {
 }
 
 #conductor-box img {
-  width: 100%;
+  width: 15%;
+  min-width: 100px;
+  float: left;
+  margin: 0px 15px 5px 0px;
 }
 
 #mail-hidden-btn {

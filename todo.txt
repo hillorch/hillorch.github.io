@@ -1,4 +1,3 @@
-conductor section?
 fix mobile
 make navbar responsive
 think about msapplication metadata https://technet.microsoft.com/en-us/windows/dn255024(v=vs.60)

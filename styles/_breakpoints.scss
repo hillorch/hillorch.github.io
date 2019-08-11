@@ -1,0 +1,41 @@
+// <= 1200px
+@include media-breakpoint-down(lg) {
+
+}
+
+// <= 992px
+@include media-breakpoint-down(md) {
+    h1 {
+        font-size: 50px;
+    }
+}
+@include media-breakpoint-only(md) {
+    div.logo-flex a {
+        width: 80% !important;
+    }
+}
+
+// <= 768px
+@include media-breakpoint-down(sm) {
+    .footer-logos {
+        margin: 8% 0px;
+    }
+    #nav-logo {
+        height: 54px !important;
+    }
+    .content-frame {
+        margin-bottom: 80px !important;
+    }
+    .scroll-anchor {
+        top: -160px !important;
+    }
+    h1 {
+        font-size: 40px;
+        text-align: left;
+    }
+}
+
+// <= 576px
+@include media-breakpoint-down(xs) {
+    
+}

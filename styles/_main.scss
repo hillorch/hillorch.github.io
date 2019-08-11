@@ -15,7 +15,8 @@
 @import "../bootstrap/scss/buttons";
 
 // custom
-@import "./navbar";
+@import "./nav";
+@import "./breakpoints";
 
 body {
     background: #888888 url("../img/OswaldsBanner_mono_1718.jpg");
@@ -36,42 +37,6 @@ body {
 
 .scroll-anchor {
     position: absolute;
-    top: -196px;
+    top: -200px;
     left: 0;
-}
-
-footer {
-    padding-top: 2%;
-    background-color: rgb(66, 66, 66);
-    p {
-        margin: 0px;
-    }
-    .container {
-        padding-bottom: 2%;
-    }
-    .row img {
-        width: 100%;
-    }
-    .bottom-msg {
-        padding: 20px 5px;
-        text-align: center;
-        background-color: rgb(40, 40, 40);
-    }
-    .footer-logos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: horizontal;
-
-        .logo-flex {
-            display: flex;
-            height: 100%;
-            width: 50%;
-            justify-content: center;
-            align-items: center;
-            a {
-                width: 70%;
-            }
-        }
-    }
 }

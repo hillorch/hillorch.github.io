@@ -1,5 +1,41 @@
 @import "./main";
 
+// BREAKPOINTS
+@include media-breakpoint-down(lg) {
+    #exec-box {
+        ul li {
+            font-size: 13px;
+        }
+    }
+}
+@include media-breakpoint-down(md) {
+    body {
+        font-size: 15px;
+    }
+    #about-box {
+        margin-top: 300px !important;
+    }
+    #exec-box {
+        b {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 1.4rem;
+        }
+    }
+}
+@include media-breakpoint-down(sm) {
+    // pretend the exec box never existed
+    #exec-box, #exec-btn {
+        display: none;
+    }
+}
+
+.float-clearer {
+    clear: both;
+    display: block;
+}
+
 #about-box {
     margin-top: 400px;
 }
@@ -58,7 +94,10 @@
         margin-bottom: 1rem;
     }
     img {
-        width: 100%;
+        width: 15%;
+        min-width: 100px;
+        float: left;
+        margin: 0px 15px 5px 0px;
     }
 }
 
