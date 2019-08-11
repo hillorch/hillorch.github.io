@@ -1,1 +1,2 @@
 think about msapplication metadata https://technet.microsoft.com/en-us/windows/dn255024(v=vs.60)
+service workers / live tiles to announce concerts would be REALLY COOL
