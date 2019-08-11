@@ -1,0 +1,20 @@
+{
+    "short_name": "DUHO",
+    "name": "Durham University Hill Orchestra",
+    "icons": [
+        {
+            "src": "/images/logo/192x192.jpg",
+            "type": "image/jpg",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/logo/512x512.jpg",
+            "type": "image/jpg",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#424242",
+    "display": "standalone",
+    "theme_color": "#424242"
+}
