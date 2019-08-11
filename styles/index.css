@@ -2836,6 +2836,14 @@ footer .footer-logos .logo-flex a {
   font-size: 15px;
 }
 
+#conductor-box h2 {
+  margin-bottom: 1rem;
+}
+
+#conductor-box img {
+  width: 100%;
+}
+
 #mail-hidden-btn {
   position: absolute;
   top: 0;
