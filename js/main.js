@@ -30,9 +30,9 @@ window.addEventListener('scroll', checkScroll);
 // register service worker to cache content
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/js/service-worker.js');
+      navigator.serviceWorker.register('/js/serviceworker.js');
     });
-  }
+}
 
 /**
  * Make smooth scrolling a thing
