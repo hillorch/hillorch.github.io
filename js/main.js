@@ -3,6 +3,13 @@ const navbar = $('nav.navbar');
 const colours = ['rgba(50, 50, 50, 0.7)', 'rgb(66, 66, 66)']
 let opaque = false;
 
+// register service worker to cache content
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/js/serviceworker.js');
+    });
+}
+
 /**
  * Change the navbar's appearance depending on whether we're at the top or not
  */
@@ -26,13 +33,6 @@ function checkScroll() {
 }
 // run that function whenever the user scrolls
 window.addEventListener('scroll', checkScroll);
-
-// register service worker to cache content
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/js/serviceworker.js');
-    });
-}
 
 /**
  * Make smooth scrolling a thing
