@@ -6,7 +6,7 @@ let opaque = false;
 // register service worker to cache content
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/js/serviceworker.js');
+        navigator.serviceWorker.register('/js/serviceworker.js', {scope: '/'});
     });
 }
 
