@@ -8,7 +8,7 @@ if ('serviceWorker' in navigator) {
     console.log('Browser supports SW');
     window.addEventListener('load', function() {
         console.log('Installing SW');
-        navigator.serviceWorker.register('/js/serviceworker.js', {scope: '/'}).then(function(registration) {
+        navigator.serviceWorker.register('/serviceworker.js', {scope: '/'}).then(function(registration) {
             console.log('Service worker registration succeeded:', registration);
           }, /*catch*/ function(error) {
             console.log('Service worker registration failed:', error);
