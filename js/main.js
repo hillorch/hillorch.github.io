@@ -5,8 +5,14 @@ let opaque = false;
 
 // register service worker to cache content
 if ('serviceWorker' in navigator) {
+    console.log('Browser supports SW');
     window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/js/serviceworker.js', {scope: '/'});
+        console.log('Installing SW');
+        navigator.serviceWorker.register('/js/serviceworker.js', {scope: '/'}).then(function(registration) {
+            console.log('Service worker registration succeeded:', registration);
+          }, /*catch*/ function(error) {
+            console.log('Service worker registration failed:', error);
+        });
     });
 }
 
