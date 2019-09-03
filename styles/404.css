@@ -2782,7 +2782,7 @@ footer .footer-logos .logo-flex a {
 }
 
 html {
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 body {
