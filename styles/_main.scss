@@ -18,6 +18,10 @@
 @import "./nav";
 @import "./breakpoints";
 
+html {
+    min-height: 100vh;
+}
+
 body {
     background: #888888 url("../img/OswaldsBanner_mono_1718.jpg");
     background-size: cover;

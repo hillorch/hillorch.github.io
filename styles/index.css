@@ -2781,6 +2781,10 @@ footer .footer-logos .logo-flex a {
   }
 }
 
+html {
+  min-height: 100vh;
+}
+
 body {
   background: #888888 url("../img/OswaldsBanner_mono_1718.jpg");
   background-size: cover;
