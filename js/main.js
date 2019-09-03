@@ -55,12 +55,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
+/*
 // Implement background-size: cover in JS because Chrome mobile doesn't work with it and position: fixed simultaneously for some reason
 let bgRatio = 1928 / 878; // insert resolution of background image here
-/**
- * change the calculation of background size depending on the size of the window
- */
+// change the calculation of background size depending on the size of the window
 function checkBG() {
     if (window.innerWidth / window.innerHeight > bgRatio) {
         $('body').css('background-size', '100vw auto');
@@ -71,3 +69,4 @@ function checkBG() {
 }
 checkBG(); // check for the first time
 window.addEventListener('resize', checkBG); // then, every time the window resizes, check again
+*/
