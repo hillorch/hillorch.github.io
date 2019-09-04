@@ -2,3 +2,4 @@ think about msapplication metadata https://technet.microsoft.com/en-us/windows/d
 service workers / live tiles to announce concerts would be REALLY COOL
 fix the background scaling on chrome mobile
 maybe make sure the title is on screen on landscape mobile devices
+insert up-to-date music durham purchase link once available
