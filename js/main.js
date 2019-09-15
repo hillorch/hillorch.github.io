@@ -71,6 +71,15 @@ checkBG(); // check for the first time
 window.addEventListener('resize', checkBG); // then, every time the window resizes, check again
 */
 
+$('#GA-Optin').click((e) => {
+    e.preventDefault();
+    gaOptin();
+});
+$('#GA-Optout').click((e) => {
+    e.preventDefault();
+    gaOptout();
+});
+
 // code to control user opt-in / opt-out for Google Analytics
 let gaProperty = 'UA-58923240-2',  disableStr = 'ga-disable-' + gaProperty;
 if (document.cookie.indexOf(disableStr + '=true') > -1) {
