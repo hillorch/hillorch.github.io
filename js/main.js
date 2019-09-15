@@ -40,19 +40,21 @@ window.addEventListener('scroll', checkScroll);
 /**
  * Make smooth scrolling a thing
  */
-document.querySelectorAll('a[href^="#*"]').forEach(anchor => {
-    // for every in-page link
-    anchor.addEventListener('click', function(e) {
-        // when it's clicked...
-
-        e.preventDefault();
-        // instead of the default...
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            // do a sexy smooth scroll 😍
-            behavior: 'smooth'
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    // for every in-page link that refers to a valid ID
+    if ($(anchor).attr('href') !== '#') {
+        anchor.addEventListener('click', function(e) {
+            // when it's clicked...
+    
+            e.preventDefault();
+            // instead of the default...
+    
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                // do a sexy smooth scroll 😍
+                behavior: 'smooth'
+            });
         });
-    });
+    }
 });
 
 /*
