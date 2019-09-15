@@ -101,4 +101,4 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
-gtag('config', gaProperty);
+gtag('config', gaProperty, {'anonymize_ip': true});
