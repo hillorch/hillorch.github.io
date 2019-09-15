@@ -40,7 +40,7 @@ window.addEventListener('scroll', checkScroll);
 /**
  * Make smooth scrolling a thing
  */
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+document.querySelectorAll('a[href^="#*"]').forEach(anchor => {
     // for every in-page link
     anchor.addEventListener('click', function(e) {
         // when it's clicked...
