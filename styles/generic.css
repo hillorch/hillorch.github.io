@@ -2661,6 +2661,56 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
+.toast {
+  max-width: 350px;
+  overflow: hidden;
+  font-size: 0.875rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  opacity: 0;
+  border-radius: 0.25rem;
+}
+
+.toast:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.toast.showing {
+  opacity: 1;
+}
+
+.toast.show {
+  display: block;
+  opacity: 1;
+}
+
+.toast.hide {
+  display: none;
+}
+
+.toast-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.25rem 0.75rem;
+  color: #6c757d;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-clip: padding-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.toast-body {
+  padding: 0.75rem;
+}
+
 .navbar {
   background-color: rgba(50, 50, 50, 0.7);
   font-size: 20px;
@@ -2805,5 +2855,21 @@ body {
   position: absolute;
   top: -200px;
   left: 0;
+}
+
+.toast {
+  color: #000000;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.toast a {
+  color: #000000;
+  font-weight: bold;
+}
+
+.toast .toast-header-float {
+  margin-left: auto;
 }
 /*# sourceMappingURL=generic.css.map */
