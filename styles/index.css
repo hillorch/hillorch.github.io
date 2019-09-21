@@ -2741,7 +2741,7 @@ input[type="button"].btn-block {
 }
 
 .navbar #nav-logo {
-  height: 74px;
+  height: 60px;
 }
 
 footer {
@@ -2843,7 +2843,7 @@ body {
 
 .content-frame {
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 86px;
   background-color: rgba(66, 66, 66, 0.9);
   padding: 2% 0px;
 }
@@ -2854,7 +2854,7 @@ body {
 
 .scroll-anchor {
   position: absolute;
-  top: -200px;
+  top: -172px;
   left: 0;
 }
 
@@ -2897,6 +2897,12 @@ body {
 @media (max-width: 767.98px) {
   #exec-box, #exec-btn {
     display: none;
+  }
+}
+
+@media (max-height: 500px) {
+  #about-box {
+    margin-top: 140px !important;
   }
 }
 

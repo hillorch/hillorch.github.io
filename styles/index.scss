@@ -30,6 +30,12 @@
         display: none;
     }
 }
+// vertically small displays
+@media (max-height: 500px) {
+    #about-box {
+        margin-top: 140px !important;
+    }
+}
 
 .float-clearer {
     clear: both;

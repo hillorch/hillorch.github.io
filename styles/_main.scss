@@ -29,7 +29,7 @@ body {
 }
 .content-frame {
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 86px;
     background-color: rgba(66, 66, 66, 0.9);
     padding: 2% 0px;
     &:first-of-type {
@@ -39,7 +39,8 @@ body {
 
 .scroll-anchor {
     position: absolute;
-    top: -200px;
+    // offset for in-page links here
+    top: -172px;
     left: 0;
 }
 .toast {
