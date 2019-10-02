@@ -46,15 +46,88 @@
         <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="/img/DUHO_texturedOnGrey.png">
 
-        <link rel="stylesheet" href="/styles/join.css">
+        <link rel="stylesheet" href="./styles/join.css">
     </head>
     <body id="home">
         <nav class="navbar navbar-dark navbar-expand sticky-top">
             <div class="container">
-                <a class="navbar-brand" href="/"><img src="/img/DUHO_textured_small.png" alt="Hill Orchestra Logo" id="nav-logo"></a>
+                <a class="navbar-brand" href="/"><img src="./img/DUHO_textured_small.png" alt="Hill Orchestra Logo" id="nav-logo"></a>
             </div>
         </nav>
-        <iframe src="https://hillorchestradurham.us19.list-manage.com/subscribe?u=51f9e14fac4911ca6d867101d&id=6270e4577c" id="signup-frame"></iframe>
+        <div class="content-frame">
+            <div class="container">
+                <h1>Join DUHO</h1> 
+                <form action="https://hillorchestradurham.us19.list-manage.com/subscribe/post" method="POST">
+                    <input type="hidden" name="u" value="51f9e14fac4911ca6d867101d">
+                    <input type="hidden" name="id" value="6270e4577c">
+                    
+                    <!-- people should not fill these in and expect good things -->
+                    <div class="field-shift hidden" aria-label="Please leave the following three fields empty">
+                        <label for="b_name">Name: </label>
+                        <input type="text" name="b_name" tabindex="-1" value="" placeholder="Freddie" id="b_name">
+                
+                        <label for="b_email">Email: </label>
+                        <input type="email" name="b_email" tabindex="-1" value="" placeholder="youremail@gmail.com" id="b_email">
+                
+                        <label for="b_comment">Comment: </label>
+                        <textarea name="b_comment" tabindex="-1" placeholder="Please comment" id="b_comment"></textarea>
+                    </div>
+                
+                    <div id="mergeTable" class="mergeTable">
+                        <div class="mergeRow dojoDndItem mergeRow-email" id="mergeRow-0">
+                            <label for="MERGE0">Email Address <span class="req asterisk">*</span></label>
+                            <div class="field-group">
+                                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+                            </div>
+                        </div>
+                        <div class="mergeRow dojoDndItem mergeRow-text" id="mergeRow-1">
+                            <label for="MERGE1">Name</label>
+                            <div class="field-group">
+                                <input type="text" name="MERGE1" id="MERGE1" size="25" value="">
+                            </div>
+                        </div>
+                        <div class="mergeRow dojoDndItem mergeRow-dropdown" id="mergeRow-3">
+                            <label for="MERGE3">College</label>
+                            <div class="field-group">
+                                <select class="select-small" id="MERGE3" name="MERGE3"><option value="Please Select">Please Select</option><option value="Collingwood">Collingwood</option><option value="Grey">Grey</option><option value="Hatfield">Hatfield</option><option value="John Snow">John Snow</option><option value="Josephine Butler">Josephine Butler</option><option value="St Aidan's">St Aidan's</option><option value="St Chad's">St Chad's</option><option value="St Cuthbert's">St Cuthbert's</option><option value="St Hild &amp; St Bede">St Hild &amp; St Bede</option><option value="St John's">St John's</option><option value="St Mary's">St Mary's</option><option value="Stephenson">Stephenson</option><option value="Trevelyan">Trevelyan</option><option value="University">University</option><option value="Van Mildert">Van Mildert</option><option value="Ustinov">Ustinov</option></select>
+                            </div>
+                        </div>
+                        <div class="mergeRow dojoDndItem mergeRow-text" id="mergeRow-2">
+                            <label for="MERGE2">Instrument(s)</label>
+                            <div class="field-group">
+                                <input type="text" name="MERGE2" id="MERGE2" size="25" value="">
+                            </div>
+                        </div>
+                        <div class="mergeRow dojoDndItem mergeRow-text" id="mergeRow-5">
+                            <label for="MERGE5">Grade (Optional)</label>
+                            <div class="field-group">
+                                <input type="text" name="MERGE5" id="MERGE5" size="25" value="">
+                            </div>
+                        </div>
+                        <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow">
+                            <div class="gdpr-content">
+                                <label id="gdpr-label">
+                                    Marketing Permissions <span class="req asterisk">*</span>
+                                </label>
+                                <p id="gdpr-description">Please check the box below to opt into the weekly emails from the Hill Orchestra. </p>
+                                <div><ul class="interestgroup_field checkbox-group"> <li class="!margin-bottom--lv2"> <label class="checkbox" for="gdpr_11059"><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="gdpr_11059" name="gdpr[11059]" value="Y" } class="av-checkbox"><span>Email Updates - Yes Please!</span> </label> </li> </ul></div>
+                                <p id="gdpr-legal">The personal information provided by you on this form will be used to maintain a database of student musicians signed up to Hill Orchestra and maintain a record of the college interaction with the orchestra. You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.</p>
+                            </div>
+                            <div class="gdpr-footer">
+                                <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/" target="_blank">Learn more about Mailchimp's privacy practices here.</a></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                
+                    <div class="submit_container clear">
+                        <input type="submit" class="formEmailButton" name="submit" value="Subscribe">
+                    </div>
+                    <input type="hidden" name="ht" value="e28571f8ce7217c0db24f0971873f8a65193218d:MTU3MDAxMDgyMy4wMzU5">
+                    <input type="hidden" name="mc_signupsource" value="hosted">
+                </form>
+            </div>
+        </div>
         <footer>
             <div class="container">
                 <div class="row">
