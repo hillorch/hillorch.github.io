@@ -2873,6 +2873,11 @@ body {
   margin-left: auto;
 }
 
+.clearfix {
+  display: block;
+  clear: both;
+}
+
 .content-frame:first-of-type {
   margin-top: 100px !important;
 }

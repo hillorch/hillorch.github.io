@@ -2872,4 +2872,9 @@ body {
 .toast .toast-header-float {
   margin-left: auto;
 }
+
+.clearfix {
+  display: block;
+  clear: both;
+}
 /*# sourceMappingURL=generic.css.map */

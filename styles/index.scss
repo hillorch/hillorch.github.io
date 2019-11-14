@@ -30,6 +30,15 @@
         display: none;
     }
 }
+@include media-breakpoint-down(xs) {
+    a.concert-poster {
+        display: block;
+        float: none;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
 // vertically small displays
 @media (max-height: 500px) {
     #about-box {
@@ -114,4 +123,17 @@
     width: 10px;
     height: 10px;
     z-index: 1000000;
+}
+
+.concert-poster {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+
+    > img {
+        width: 100%;
+    }
+}
+.concert-info {
+    font-weight: bold;
 }

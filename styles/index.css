@@ -2873,6 +2873,11 @@ body {
   margin-left: auto;
 }
 
+.clearfix {
+  display: block;
+  clear: both;
+}
+
 @media (max-width: 1199.98px) {
   #exec-box ul li {
     font-size: 13px;
@@ -2897,6 +2902,16 @@ body {
 @media (max-width: 767.98px) {
   #exec-box, #exec-btn {
     display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  a.concert-poster {
+    display: block;
+    float: none;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
   }
 }
 
@@ -2990,5 +3005,19 @@ body {
   width: 10px;
   height: 10px;
   z-index: 1000000;
+}
+
+.concert-poster {
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+
+.concert-poster > img {
+  width: 100%;
+}
+
+.concert-info {
+  font-weight: bold;
 }
 /*# sourceMappingURL=index.css.map */
