@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
-@import "./customvars";
+@import "customvars";
 
 // https://getbootstrap.com/docs/4.3/getting-started/theming/
 // required
@@ -16,8 +16,8 @@
 @import "../bootstrap/scss/toasts";
 
 // custom
-@import "./nav";
-@import "./breakpoints";
+@import "nav";
+@import "breakpoints";
 
 body {
     background: #888888 url("../img/OswaldsBanner_mono_1718.jpg");
